@@ -37,3 +37,7 @@ The JavaScript -
 ## notes
 
 Make sure you progressively enhance your code to make the menu hide at your desired viewport width so that it will display if the users device does not have JavaScript.
+
+## demo
+
+[Here is a codepen](http://codepen.io/sturobson/pen/fwaiz)
