@@ -20,8 +20,26 @@
 
 	<!--[if IE]>    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>    <![endif]-->
 
-	<script src="navicon.js"></script>
+	<script>
+	(function(H){H.className=H.className.replace(/bnojsb/,'js')})
+	(document.documentElement)
+	</script>
 
+	<script src="navicon.js"></script>
+	<style>
+		.js #mainnav {
+			display: none;
+		}
+
+		@media (min-width: 37.5em) {
+			#navicon {
+				display: none;
+			}
+			.js #mainnav {
+				display: block;
+			}
+		}
+	</style>
 </head>
 
 <body>
@@ -30,7 +48,7 @@
 
 		<header role="banner">
 			<h1>A pure JS show/hide</h1>
-			<button id="navicon">menu</button>
+			<a id="navicon">menu</a>
 			<nav role="navigation" id="mainnav">
 				<ul>
 					<li><a href=""></a>home</li>
