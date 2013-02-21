@@ -1,4 +1,4 @@
-# Basic navicon pattern
+# A basic navicon pattern
 
 A very simple show/hide pattern that utilises 	document.getElementById(id).
 
@@ -33,3 +33,7 @@ The JavaScript -
 			div.style.display = 'none';
 		}
 	};
+
+## notes
+
+Make sure you progressively enhance your code to make the menu hide at your desired viewport width so that it will display if the users device does not have JavaScript.
