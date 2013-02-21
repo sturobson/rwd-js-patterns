@@ -34,6 +34,14 @@ The JavaScript -
 		}
 	};
 
+### Resizing the browser
+
+If your user was to resize the browser from small to large after opening and closing the navigation the menu could be lost. Adding these lines of JavaScript will force the menu to be shown for when the browser is resized.
+
+	window.onresize = function() {
+		mainnav.style.display = 'block';
+	}
+
 ### Notes
 
 Make sure you progressively enhance your code to make the menu hide at your desired viewport width so that it will display if the users device does not have JavaScript.
