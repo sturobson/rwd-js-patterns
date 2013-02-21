@@ -1,4 +1,3 @@
-rwd-js-patterns
-===============
+# Responsive Vanilla JavaScript Patterns
 
-a codebase of simple JavaScript patterns for responsive web design that don't rely on jQuery
+A codebase of simple JavaScript patterns for responsive web design that don't rely on jQuery.
