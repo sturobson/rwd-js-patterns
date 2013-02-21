@@ -34,10 +34,20 @@ The JavaScript -
 		}
 	};
 
-## notes
+### notes
 
 Make sure you progressively enhance your code to make the menu hide at your desired viewport width so that it will display if the users device does not have JavaScript.
 
-## demo
+### demo
 
 [Here is a codepen](http://codepen.io/sturobson/pen/fwaiz)
+
+### Support
+
+According to the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/DOM/document.getElementById) browser support for the JavaScript is
+
+* Chrome 1.0 +
+* Firefox (Gecko) 1.0 +
+* Internet Explorer 5.5 +
+* Opera 7.0 +
+* Safari (Webkit) 1.0 +
