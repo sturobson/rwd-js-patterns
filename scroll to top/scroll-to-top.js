@@ -1,5 +1,5 @@
 document.getElementById('scroll-to-top').onclick = function () {
-    scrollTo(document.body, 0, 300);
+    scrollTo(document.body, 0, 100);
 }
 
 function scrollTo(element, to, duration) {
