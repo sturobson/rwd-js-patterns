@@ -9,6 +9,6 @@ function scrollTo(element, to, duration) {
 
     setTimeout(function() {
         element.scrollTop = element.scrollTop + perTick;
-        scrollTo(element, to, duration - 0);
+        scrollTo(element, to, duration - 2);
     }, 10);
 }
