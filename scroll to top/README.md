@@ -3,31 +3,32 @@
 A very simple scoll to top pattern that utilises scrollTo.
 
 The HTML -
+	<body id="top">
+		<div id="wrapper">
 
-	<div id="wrapper">
+			<header role="banner">
+				<h1>A pure JS scroll to top</h1>
 
-		<header role="banner">
-			<h1>A pure JS scroll to top</h1>
+			</header> <!-- /header -->
 
-		</header> <!-- /header -->
+			<main role="main">
+				<section>
+					<h2>Lots of content</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem non fugit porro quibusdam autem similique commodi tempora natus consequatur temporibus incidunt ducimus sed consequuntur vel ex quos culpa. Sapiente distinctio.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem non fugit porro quibusdam autem similique commodi tempora natus consequatur temporibus incidunt ducimus sed consequuntur vel ex quos culpa. Sapiente distinctio.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem non fugit porro quibusdam autem similique commodi tempora natus consequatur temporibus incidunt ducimus sed consequuntur vel ex quos culpa. Sapiente distinctio.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem non fugit porro quibusdam autem similique commodi tempora natus consequatur temporibus incidunt ducimus sed consequuntur vel ex quos culpa. Sapiente distinctio.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem non fugit porro quibusdam autem similique commodi tempora natus consequatur temporibus incidunt ducimus sed consequuntur vel ex quos culpa. Sapiente distinctio.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem non fugit porro quibusdam autem similique commodi tempora natus consequatur temporibus incidunt ducimus sed consequuntur vel ex quos culpa. Sapiente distinctio.</p>
 
-		<main role="main">
-			<section>
-				<h2>Lots of content</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem non fugit porro quibusdam autem similique commodi tempora natus consequatur temporibus incidunt ducimus sed consequuntur vel ex quos culpa. Sapiente distinctio.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem non fugit porro quibusdam autem similique commodi tempora natus consequatur temporibus incidunt ducimus sed consequuntur vel ex quos culpa. Sapiente distinctio.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem non fugit porro quibusdam autem similique commodi tempora natus consequatur temporibus incidunt ducimus sed consequuntur vel ex quos culpa. Sapiente distinctio.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem non fugit porro quibusdam autem similique commodi tempora natus consequatur temporibus incidunt ducimus sed consequuntur vel ex quos culpa. Sapiente distinctio.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem non fugit porro quibusdam autem similique commodi tempora natus consequatur temporibus incidunt ducimus sed consequuntur vel ex quos culpa. Sapiente distinctio.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem non fugit porro quibusdam autem similique commodi tempora natus consequatur temporibus incidunt ducimus sed consequuntur vel ex quos culpa. Sapiente distinctio.</p>
+					<a href="top" id="scroll-to-top">back to top</a>
 
-				<a id="scroll-to-top">back to top</a>
+				</section>
 
-			</section>
+			</main> <!-- /main -->
 
-		</main> <!-- /main -->
-
-	</div> <!-- /#wrapper -->
+		</div> <!-- /#wrapper -->
+	</body>
 
 The JavaScript -
 
