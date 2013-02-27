@@ -4,8 +4,6 @@ A very simple scoll to top pattern that utilises scrollTo.
 
 The HTML -
 
-	<body>
-
 	<div id="wrapper">
 
 		<header role="banner">
@@ -48,5 +46,9 @@ The JavaScript -
     	}, 10);
 	}
 
+
+### Demo
+
+[Here is a codepen](http://codepen.io/sturobson/pen/equnb)
 
 ### Notes
