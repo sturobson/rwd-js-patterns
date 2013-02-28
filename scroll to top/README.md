@@ -21,7 +21,7 @@ The HTML -
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem non fugit porro quibusdam autem similique commodi tempora natus consequatur temporibus incidunt ducimus sed consequuntur vel ex quos culpa. Sapiente distinctio.</p>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem non fugit porro quibusdam autem similique commodi tempora natus consequatur temporibus incidunt ducimus sed consequuntur vel ex quos culpa. Sapiente distinctio.</p>
 
-					<a href="top" id="scroll-to-top">back to top</a>
+					<a href="#top" id="scroll-to-top">back to top</a>
 
 				</section>
 
